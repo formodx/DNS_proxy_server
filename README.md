@@ -5,6 +5,8 @@ Then creates two sockets for interaction with clients and the upstream server.
 Further, all client requests are filtered by domain.  
 If the domain is on the blacklist, an error is returned with the code specified in the configuration file.  
 Otherwise, the request is forwarded to the upstream server.
+Also for handling data server will create a child process
+Additionally, to process the data, the server will create a child process, which will terminate after responding to the request.
 
 
 The configuration file contains the following parameters:
