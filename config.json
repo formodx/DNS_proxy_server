@@ -1,0 +1,6 @@
+{
+	"proxy": "0.0.0.0:8000",
+	"upstream": "8.8.8.8:53",
+	"blacklist": ["google.com", "youtube.com", "instagram.com", "leetcode.com"],
+	"response": 5
+}
