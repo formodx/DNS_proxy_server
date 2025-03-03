@@ -80,11 +80,7 @@ void print_question_record(struct question_record *r){
 
 
 const char *response_code_to_string(uint8_t x){
-	int length = 20;
-	char *s = malloc(length);
-	memset(s, 0, length);
-
-
+	const char *s = NULL;
 	switch(x){
 		case 1:
 			s = "Format error";
