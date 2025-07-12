@@ -27,7 +27,7 @@ Make sure you have the following tools and libraries installed:
 
 ### Instructions
 1. **Clone the repository:**
-   ```base
+   ```bash
    git clone https://github.com/formodx/DNS_proxy_server.git
    cd DNS_proxy_server
    ```
